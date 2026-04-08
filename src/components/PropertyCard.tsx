@@ -28,9 +28,23 @@ const PropertyCard = ({
   features,
 }: PropertyCardProps) => {
   const [currentImage, setCurrentImage] = useState(0);
+  const whatsappUrl = `https://wa.me/5511969994994?text=${encodeURIComponent("Olá! Tenho interesse neste imóvel.")}`;
 
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
   const prevImage = () => setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
+  const openWhatsApp = () => {
+    if (typeof window === "undefined") return;
+
+    const popup = window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+
+    if (!popup && window.self !== window.top) {
+      try {
+        window.top?.location.assign(whatsappUrl);
+      } catch {
+        window.location.href = whatsappUrl;
+      }
+    }
+  };
 
   return (
     <div className="animate-fade-in">
@@ -123,18 +137,13 @@ const PropertyCard = ({
           </div>
 
           <Button
+            type="button"
             size="lg"
             className="w-fit bg-primary text-primary-foreground hover:bg-primary/90 gap-2 text-base px-8"
-            asChild
+            onClick={openWhatsApp}
           >
-            <a
-              href={`https://wa.me/5511969994994?text=${encodeURIComponent("Olá! Tenho interesse neste imóvel.")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone className="w-4 h-4" />
-              Falar no WhatsApp
-            </a>
+            <Phone className="w-4 h-4" />
+            Falar no WhatsApp
           </Button>
         </div>
       </div>
