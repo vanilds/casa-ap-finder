@@ -134,9 +134,16 @@ const PropertyCard = ({
           <Button
             size="lg"
             className="w-fit bg-primary text-primary-foreground hover:bg-primary/90 gap-2 text-base px-8"
+            asChild
           >
-            <Phone className="w-4 h-4" />
-            Entrar em Contato
+            <a
+              href="https://wa.me/5511969994994?text=Olá! Tenho interesse neste imóvel."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone className="w-4 h-4" />
+              Falar no WhatsApp
+            </a>
           </Button>
         </div>
       </div>
