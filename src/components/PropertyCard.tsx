@@ -45,6 +45,9 @@ const PropertyCard = ({
           <div className="absolute top-4 left-4 bg-accent px-4 py-1.5 rounded-full">
             <span className="text-sm font-semibold text-accent-foreground">À Venda</span>
           </div>
+          <div className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm px-3 py-1.5 rounded-full">
+            <span className="text-sm font-medium text-foreground">{currentImage + 1} / {images.length}</span>
+          </div>
 
           {images.length > 1 && (
             <>
