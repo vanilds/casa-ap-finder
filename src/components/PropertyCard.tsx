@@ -140,7 +140,6 @@ const PropertyCard = ({
               href={`https://wa.me/5511969994994?text=${encodeURIComponent("Olá! Tenho interesse neste imóvel.")}`}
               target="_blank"
               rel="noopener noreferrer"
-              rel="noopener noreferrer"
             >
               <Phone className="w-4 h-4" />
               Falar no WhatsApp
