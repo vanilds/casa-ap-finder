@@ -137,7 +137,7 @@ const PropertyCard = ({
             asChild
           >
             <a
-              href="https://wa.me/5511969994994?text=Olá! Tenho interesse neste imóvel."
+              href={`https://wa.me/5511969994994?text=${encodeURIComponent("Olá! Tenho interesse neste imóvel.")}`}
               target="_blank"
               rel="noopener noreferrer"
             >
