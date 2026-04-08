@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Home, Building2 } from "lucide-react";
 import PropertyCard from "@/components/PropertyCard";
-import houseImg from "@/assets/house.jpg";
 import apartmentImg from "@/assets/apartment.jpg";
 
 const tabs = [
