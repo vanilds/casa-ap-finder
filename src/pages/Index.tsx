@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Home, Building2 } from "lucide-react";
 import PropertyCard from "@/components/PropertyCard";
 import apartmentImg from "@/assets/apartment.jpg";
+import casaPrincipal from "@/assets/casa/casa-principal.png";
 import casa26060464 from "@/assets/casa/casa-26060464.jpg";
 import casa26060461 from "@/assets/casa/casa-26060461.jpg";
 import casa26060462 from "@/assets/casa/casa-26060462.jpg";
@@ -68,6 +69,7 @@ const tabs = [
 const properties = {
   house: {
     images: [
+      casaPrincipal,
       casa26060464,
       casa26060461,
       casa26060462,
