@@ -220,7 +220,7 @@ const Index = () => {
                     : "bg-secondary text-secondary-foreground hover:bg-muted"
                 }`}
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-5 h-5" strokeWidth={2.75} />
                 {tab.label}
               </button>
             );
