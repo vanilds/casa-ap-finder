@@ -191,9 +191,6 @@ const Index = () => {
               <h1 className="text-lg sm:text-xl font-serif font-bold tracking-wide text-foreground">
                 Business <span className="font-light italic">by</span> <span className="text-accent">Vani Santos</span>
               </h1>
-              <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground">
-                Leilão • Airbnb • Imóveis
-              </span>
             </div>
           </div>
           <span className="text-sm text-muted-foreground hidden md:block italic">
