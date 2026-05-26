@@ -21,7 +21,7 @@ const properties = {
       "https://www.quintoandar.com.br/img/med/original895306046-208.9258503753959Cod.260604610.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-62.83813669540028Cod.260604611.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-124.42987456784837Cod.260604612.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-224.73629772390169Cod.260604614.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-925.0815099864473Cod.260604615.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-528.9672420685813Cod.260604616.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-598.22603210228Cod.260604617.jpg",
