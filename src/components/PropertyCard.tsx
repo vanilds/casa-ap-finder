@@ -57,7 +57,7 @@ const PropertyCard = ({
             className="w-full h-[300px] sm:h-[400px] lg:h-[500px] object-cover rounded-lg transition-transform duration-700"
           />
           <div className="absolute top-4 left-4 bg-accent px-4 py-1.5 rounded-full">
-            <span className="text-sm font-semibold text-accent-foreground">À Venda</span>
+            <span className="text-sm font-bold text-accent-foreground">À Venda</span>
           </div>
           <div className="absolute top-4 right-4 bg-background/80 backdrop-blur-sm px-3 py-1.5 rounded-full">
             <span className="text-sm font-medium text-foreground">{currentImage + 1} / {images.length}</span>
@@ -139,7 +139,7 @@ const PropertyCard = ({
           <Button
             type="button"
             size="lg"
-            className="w-fit bg-accent text-accent-foreground hover:bg-accent/90 gap-2 text-base px-8"
+            className="w-fit bg-accent text-accent-foreground hover:bg-accent/90 gap-2 text-base px-8 font-bold"
             onClick={openWhatsApp}
           >
             <Phone className="w-4 h-4" />
