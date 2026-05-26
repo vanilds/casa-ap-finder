@@ -239,7 +239,7 @@ const Index = () => {
           <img
             src={logoBVFooter}
             alt="Business by Vani Santos"
-            className="h-48 sm:h-64 w-auto object-contain"
+            className="h-24 sm:h-32 w-auto object-contain"
           />
           <div className="flex flex-col items-center gap-1">
             <h3 className="text-base sm:text-lg font-serif font-bold tracking-wide text-foreground">
