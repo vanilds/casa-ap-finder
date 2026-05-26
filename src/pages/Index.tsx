@@ -237,9 +237,9 @@ const Index = () => {
       <footer className="border-t border-border mt-16 py-10 bg-card/40">
         <div className="container mx-auto px-4 flex flex-col items-center gap-4 text-center">
           <img 
-            src={logoBV} 
+            src={logoBVBlack} 
             alt="Business by Vani Santos" 
-            className="h-20 w-20 sm:h-24 sm:w-24 object-contain brightness-0" 
+            className="h-20 w-20 sm:h-24 sm:w-24 object-contain" 
           />
           <div className="flex flex-col items-center gap-1">
             <p className="text-base sm:text-lg font-serif text-foreground">
