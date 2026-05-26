@@ -179,12 +179,24 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b border-border bg-card/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-serif font-bold text-foreground">
-            Imóveis <span className="text-accent">Premium</span>
-          </h1>
-          <span className="text-sm text-muted-foreground hidden sm:block">
+      <header className="border-b border-border bg-card/90 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img
+              src={logoBV}
+              alt="Business by Vani Santos - Especialista em Leilão, Airbnb e Imóveis"
+              className="h-14 w-14 sm:h-16 sm:w-16 object-contain rounded-md"
+            />
+            <div className="flex flex-col leading-tight">
+              <h1 className="text-lg sm:text-xl font-serif font-bold tracking-wide text-foreground">
+                Business <span className="font-light italic">by</span> <span className="text-accent">Vani Santos</span>
+              </h1>
+              <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Leilão • Airbnb • Imóveis
+              </span>
+            </div>
+          </div>
+          <span className="text-sm text-muted-foreground hidden md:block italic">
             Encontre o imóvel dos seus sonhos
           </span>
         </div>
