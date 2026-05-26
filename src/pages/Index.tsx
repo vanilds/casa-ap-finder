@@ -193,12 +193,16 @@ const Index = () => {
           {tabs.map((tab) => {
             const Icon = tab.icon;
             const isActive = activeTab === tab.id;
+            const isDisabled = tab.id === "apartment";
             return (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id)}
+                disabled={isDisabled}
+                onClick={() => !isDisabled && setActiveTab(tab.id)}
                 className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
-                  isActive
+                  isDisabled
+                    ? "bg-muted text-muted-foreground cursor-not-allowed opacity-60"
+                    : isActive
                     ? "bg-primary text-primary-foreground shadow-card"
                     : "bg-secondary text-secondary-foreground hover:bg-muted"
                 }`}
