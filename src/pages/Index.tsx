@@ -212,15 +212,15 @@ const Index = () => {
                 key={tab.id}
                 disabled={isDisabled}
                 onClick={() => !isDisabled && setActiveTab(tab.id)}
-                className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-300 ${
+                className={`flex items-center gap-2 px-6 py-3 rounded-lg font-bold transition-all duration-300 ${
                   isDisabled
                     ? "bg-muted text-muted-foreground cursor-not-allowed opacity-60"
                     : isActive
-                    ? "bg-accent text-accent-foreground shadow-card font-bold"
+                    ? "bg-accent text-accent-foreground shadow-card"
                     : "bg-secondary text-secondary-foreground hover:bg-muted"
                 }`}
               >
-                <Icon className="w-5 h-5" />
+                <Icon className="w-5 h-5" strokeWidth={2.75} />
                 {tab.label}
               </button>
             );
