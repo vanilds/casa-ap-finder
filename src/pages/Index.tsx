@@ -236,9 +236,15 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border mt-16 py-8">
-        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          © 2026 Imóveis Premium. Todos os direitos reservados.
+      <footer className="border-t border-border mt-16 py-8 bg-card/40">
+        <div className="container mx-auto px-4 flex flex-col items-center gap-3 text-center">
+          <img src={logoBV} alt="Business by Vani Santos" className="h-12 w-12 object-contain opacity-90" />
+          <p className="text-sm font-serif text-foreground">
+            Business <span className="italic font-light">by</span> <span className="text-accent">Vani Santos</span>
+          </p>
+          <p className="text-xs text-muted-foreground">
+            © 2026 Business by Vani Santos. Todos os direitos reservados.
+          </p>
         </div>
       </footer>
     </div>
