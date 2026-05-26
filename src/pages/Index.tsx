@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Home, Building2 } from "lucide-react";
 import PropertyCard from "@/components/PropertyCard";
 import apartmentImg from "@/assets/apartment.jpg";
+import logoBV from "@/assets/logo-bv.png";
 import casaPrincipal from "@/assets/casa/casa-principal.png";
 import casa26060464 from "@/assets/casa/casa-26060464.jpg";
 import casa26060461 from "@/assets/casa/casa-26060461.jpg";
@@ -178,12 +179,24 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <header className="border-b border-border bg-card/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <h1 className="text-2xl font-serif font-bold text-foreground">
-            Imóveis <span className="text-accent">Premium</span>
-          </h1>
-          <span className="text-sm text-muted-foreground hidden sm:block">
+      <header className="border-b border-border bg-card/90 backdrop-blur-md sticky top-0 z-50 shadow-sm">
+        <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-4">
+          <div className="flex items-center gap-3">
+            <img
+              src={logoBV}
+              alt="Business by Vani Santos - Especialista em Leilão, Airbnb e Imóveis"
+              className="h-14 w-14 sm:h-16 sm:w-16 object-contain rounded-md"
+            />
+            <div className="flex flex-col leading-tight">
+              <h1 className="text-lg sm:text-xl font-serif font-bold tracking-wide text-foreground">
+                Business <span className="font-light italic">by</span> <span className="text-accent">Vani Santos</span>
+              </h1>
+              <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] text-muted-foreground">
+                Leilão • Airbnb • Imóveis
+              </span>
+            </div>
+          </div>
+          <span className="text-sm text-muted-foreground hidden md:block italic">
             Encontre o imóvel dos seus sonhos
           </span>
         </div>
@@ -223,9 +236,15 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border mt-16 py-8">
-        <div className="container mx-auto px-4 text-center text-sm text-muted-foreground">
-          © 2026 Imóveis Premium. Todos os direitos reservados.
+      <footer className="border-t border-border mt-16 py-8 bg-card/40">
+        <div className="container mx-auto px-4 flex flex-col items-center gap-3 text-center">
+          <img src={logoBV} alt="Business by Vani Santos" className="h-12 w-12 object-contain opacity-90" />
+          <p className="text-sm font-serif text-foreground">
+            Business <span className="italic font-light">by</span> <span className="text-accent">Vani Santos</span>
+          </p>
+          <p className="text-xs text-muted-foreground">
+            © 2026 Business by Vani Santos. Todos os direitos reservados.
+          </p>
         </div>
       </footer>
     </div>
