@@ -69,6 +69,7 @@ const tabs = [
 const properties = {
   house: {
     images: [
+      casaPrincipal,
       casa26060464,
       casa26060461,
       casa26060462,
