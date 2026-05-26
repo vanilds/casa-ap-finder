@@ -238,9 +238,17 @@ const Index = () => {
         <div className="container mx-auto px-4 flex flex-col items-center gap-4 text-center">
           <img
             src={logoBVFooter}
-            alt="Business by Vani Santos - Especialista em Leilão, Airbnb e Imóveis"
+            alt="Business by Vani Santos"
             className="h-48 sm:h-64 w-auto object-contain"
           />
+          <div className="flex flex-col items-center gap-1">
+            <h3 className="text-base sm:text-lg font-serif font-bold tracking-wide text-foreground">
+              Business <span className="font-light italic">by</span> <span className="text-accent">Vani Santos</span>
+            </h3>
+            <p className="text-xs sm:text-sm text-muted-foreground tracking-widest uppercase">
+              Leilão • Airbnb • Imóveis
+            </p>
+          </div>
           <p className="text-xs text-muted-foreground">
             © 2026 Business by Vani Santos. Todos os direitos reservados.
           </p>
