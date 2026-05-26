@@ -17,7 +17,7 @@ const properties = {
       "https://www.quintoandar.com.br/img/med/original895306046-764.847387271826Cod.26060463.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-924.4607614671731Cod.26060466.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-935.5544538246455Cod.26060467.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-772.4331219164122Cod.26060465.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-208.9258503753959Cod.260604610.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-62.83813669540028Cod.260604611.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-124.42987456784837Cod.260604612.jpg",
@@ -26,7 +26,7 @@ const properties = {
       "https://www.quintoandar.com.br/img/med/original895306046-528.9672420685813Cod.260604616.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-598.22603210228Cod.260604617.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-479.5420415567334Cod.260604618.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-527.5815510531526Cod.260604619.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-356.3377736537526Cod.260604620.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-776.2533021794561Cod.260604621.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-865.1207681779322Cod.260604622.jpg",
@@ -34,21 +34,21 @@ const properties = {
       "https://www.quintoandar.com.br/img/med/original895306046-863.2777358105592Cod.260604624.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-995.8733136339047Cod.260604625.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-444.3392616266606Cod.260604626.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-233.5426568626778Cod.260604627.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-177.5266676070883Cod.260604628.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-252.0039682124828Cod.260604629.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-881.7837381147513Cod.260604630.jpg",
+      
+      
+      
+      
       "https://www.quintoandar.com.br/img/med/original895306046-902.0636107109373Cod.260604631.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-628.8992379252917Cod.260604632.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-805.7292826634863Cod.260604633.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-859.8690268440403Cod.260604634.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-828.9803135937217Cod.260604635.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-522.1123655651728Cod.260604636.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-761.279504736574Cod.260604637.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-346.120412439593Cod.260604638.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-761.5257669023507Cod.260604639.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-796.2047519645681Cod.260604640.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-258.8542285069462Cod.260604641.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-662.8775144904356Cod.260604642.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-163.5458935546471Cod.260604643.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-895.6965236991473Cod.260604644.jpg",
@@ -67,26 +67,26 @@ const properties = {
       "https://www.quintoandar.com.br/img/med/original895306046-261.49734414893953Cod.260604657.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-994.4546977202666Cod.260604658.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-404.46919414664217Cod.260604659.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-907.6969268053718Cod.260604660.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-417.201109131075Cod.260604661.jpg",
+      
+      
       "https://www.quintoandar.com.br/img/med/original895306046-194.53868451093626Cod.260604662.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-909.1586435539367Cod.260604663.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-134.0331373524546Cod.260604664.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-871.6348377653405Cod.260604665.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-957.774998963056Cod.260604666.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-176.70821081519261Cod.260604667.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-284.9773572549267Cod.260604668.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-88.76775882333088Cod.260604669.jpg",
+      
       "https://www.quintoandar.com.br/img/med/original895306046-213.76181109522275Cod.260604670.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-762.8988235019178Cod.260604671.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-138.04474804305232Cod.260604672.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-42.54394681906815Cod.260604673.jpg",
       "https://www.quintoandar.com.br/img/med/original895306046-222.74959871294774Cod.260604674.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-235.68639281899456Cod.260604675.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-492.40850190245254Cod.260604676.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-403.44226599771883Cod.260604677.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-133.22187609530434Cod.260604678.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-912.5321208726848Cod.260604679.jpg",
+      
+      
+      
+      
+      
     ],
     title: "Casa à Venda — Rua Cuevas",
     location: "Lapa, São Paulo - SP",
