@@ -2,6 +2,63 @@ import { useState } from "react";
 import { Home, Building2 } from "lucide-react";
 import PropertyCard from "@/components/PropertyCard";
 import apartmentImg from "@/assets/apartment.jpg";
+import casa26060464 from "@/assets/casa/casa-26060464.jpg";
+import casa26060461 from "@/assets/casa/casa-26060461.jpg";
+import casa26060462 from "@/assets/casa/casa-26060462.jpg";
+import casa26060463 from "@/assets/casa/casa-26060463.jpg";
+import casa26060466 from "@/assets/casa/casa-26060466.jpg";
+import casa26060467 from "@/assets/casa/casa-26060467.jpg";
+import casa260604610 from "@/assets/casa/casa-260604610.jpg";
+import casa260604611 from "@/assets/casa/casa-260604611.jpg";
+import casa260604612 from "@/assets/casa/casa-260604612.jpg";
+import casa260604615 from "@/assets/casa/casa-260604615.jpg";
+import casa260604616 from "@/assets/casa/casa-260604616.jpg";
+import casa260604617 from "@/assets/casa/casa-260604617.jpg";
+import casa260604618 from "@/assets/casa/casa-260604618.jpg";
+import casa260604620 from "@/assets/casa/casa-260604620.jpg";
+import casa260604621 from "@/assets/casa/casa-260604621.jpg";
+import casa260604622 from "@/assets/casa/casa-260604622.jpg";
+import casa260604623 from "@/assets/casa/casa-260604623.jpg";
+import casa260604624 from "@/assets/casa/casa-260604624.jpg";
+import casa260604625 from "@/assets/casa/casa-260604625.jpg";
+import casa260604626 from "@/assets/casa/casa-260604626.jpg";
+import casa260604631 from "@/assets/casa/casa-260604631.jpg";
+import casa260604633 from "@/assets/casa/casa-260604633.jpg";
+import casa260604634 from "@/assets/casa/casa-260604634.jpg";
+import casa260604636 from "@/assets/casa/casa-260604636.jpg";
+import casa260604637 from "@/assets/casa/casa-260604637.jpg";
+import casa260604638 from "@/assets/casa/casa-260604638.jpg";
+import casa260604639 from "@/assets/casa/casa-260604639.jpg";
+import casa260604640 from "@/assets/casa/casa-260604640.jpg";
+import casa260604642 from "@/assets/casa/casa-260604642.jpg";
+import casa260604643 from "@/assets/casa/casa-260604643.jpg";
+import casa260604644 from "@/assets/casa/casa-260604644.jpg";
+import casa260604645 from "@/assets/casa/casa-260604645.jpg";
+import casa260604646 from "@/assets/casa/casa-260604646.jpg";
+import casa260604647 from "@/assets/casa/casa-260604647.jpg";
+import casa260604648 from "@/assets/casa/casa-260604648.jpg";
+import casa260604649 from "@/assets/casa/casa-260604649.jpg";
+import casa260604650 from "@/assets/casa/casa-260604650.jpg";
+import casa260604651 from "@/assets/casa/casa-260604651.jpg";
+import casa260604652 from "@/assets/casa/casa-260604652.jpg";
+import casa260604653 from "@/assets/casa/casa-260604653.jpg";
+import casa260604654 from "@/assets/casa/casa-260604654.jpg";
+import casa260604655 from "@/assets/casa/casa-260604655.jpg";
+import casa260604656 from "@/assets/casa/casa-260604656.jpg";
+import casa260604657 from "@/assets/casa/casa-260604657.jpg";
+import casa260604658 from "@/assets/casa/casa-260604658.jpg";
+import casa260604659 from "@/assets/casa/casa-260604659.jpg";
+import casa260604662 from "@/assets/casa/casa-260604662.jpg";
+import casa260604663 from "@/assets/casa/casa-260604663.jpg";
+import casa260604664 from "@/assets/casa/casa-260604664.jpg";
+import casa260604665 from "@/assets/casa/casa-260604665.jpg";
+import casa260604666 from "@/assets/casa/casa-260604666.jpg";
+import casa260604668 from "@/assets/casa/casa-260604668.jpg";
+import casa260604670 from "@/assets/casa/casa-260604670.jpg";
+import casa260604671 from "@/assets/casa/casa-260604671.jpg";
+import casa260604672 from "@/assets/casa/casa-260604672.jpg";
+import casa260604673 from "@/assets/casa/casa-260604673.jpg";
+import casa260604674 from "@/assets/casa/casa-260604674.jpg";
 
 const tabs = [
   { id: "house", label: "Casa", icon: Home },
@@ -11,82 +68,63 @@ const tabs = [
 const properties = {
   house: {
     images: [
-      "https://www.quintoandar.com.br/img/med/original895306046-671.2727727780823Cod.26060464.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-694.1348577490292Cod.26060461.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-894.0264542959114Cod.26060462.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-764.847387271826Cod.26060463.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-924.4607614671731Cod.26060466.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-935.5544538246455Cod.26060467.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-208.9258503753959Cod.260604610.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-62.83813669540028Cod.260604611.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-124.42987456784837Cod.260604612.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-925.0815099864473Cod.260604615.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-528.9672420685813Cod.260604616.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-598.22603210228Cod.260604617.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-479.5420415567334Cod.260604618.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-356.3377736537526Cod.260604620.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-776.2533021794561Cod.260604621.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-865.1207681779322Cod.260604622.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-359.9316257021996Cod.260604623.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-863.2777358105592Cod.260604624.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-995.8733136339047Cod.260604625.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-444.3392616266606Cod.260604626.jpg",
-      
-      
-      
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-902.0636107109373Cod.260604631.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-805.7292826634863Cod.260604633.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-859.8690268440403Cod.260604634.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-522.1123655651728Cod.260604636.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-761.279504736574Cod.260604637.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-346.120412439593Cod.260604638.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-761.5257669023507Cod.260604639.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-796.2047519645681Cod.260604640.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-662.8775144904356Cod.260604642.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-163.5458935546471Cod.260604643.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-895.6965236991473Cod.260604644.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-258.9678693410117Cod.260604645.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-943.6736652510098Cod.260604646.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-408.5595750717226Cod.260604647.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-915.9646681531901Cod.260604648.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-306.67314503930385Cod.260604649.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-214.2649868138843Cod.260604650.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-550.6400581142959Cod.260604651.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-868.8490074471395Cod.260604652.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-382.8193320979342Cod.260604653.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-11.74449659135579Cod.260604654.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-592.5680123055364Cod.260604655.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-197.62918083307358Cod.260604656.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-261.49734414893953Cod.260604657.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-994.4546977202666Cod.260604658.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-404.46919414664217Cod.260604659.jpg",
-      
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-194.53868451093626Cod.260604662.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-909.1586435539367Cod.260604663.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-134.0331373524546Cod.260604664.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-871.6348377653405Cod.260604665.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-957.774998963056Cod.260604666.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-284.9773572549267Cod.260604668.jpg",
-      
-      "https://www.quintoandar.com.br/img/med/original895306046-213.76181109522275Cod.260604670.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-762.8988235019178Cod.260604671.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-138.04474804305232Cod.260604672.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-42.54394681906815Cod.260604673.jpg",
-      "https://www.quintoandar.com.br/img/med/original895306046-222.74959871294774Cod.260604674.jpg",
-      
-      
-      
-      
-      
+      casa26060464,
+      casa26060461,
+      casa26060462,
+      casa26060463,
+      casa26060466,
+      casa26060467,
+      casa260604610,
+      casa260604611,
+      casa260604612,
+      casa260604615,
+      casa260604616,
+      casa260604617,
+      casa260604618,
+      casa260604620,
+      casa260604621,
+      casa260604622,
+      casa260604623,
+      casa260604624,
+      casa260604625,
+      casa260604626,
+      casa260604631,
+      casa260604633,
+      casa260604634,
+      casa260604636,
+      casa260604637,
+      casa260604638,
+      casa260604639,
+      casa260604640,
+      casa260604642,
+      casa260604643,
+      casa260604644,
+      casa260604645,
+      casa260604646,
+      casa260604647,
+      casa260604648,
+      casa260604649,
+      casa260604650,
+      casa260604651,
+      casa260604652,
+      casa260604653,
+      casa260604654,
+      casa260604655,
+      casa260604656,
+      casa260604657,
+      casa260604658,
+      casa260604659,
+      casa260604662,
+      casa260604663,
+      casa260604664,
+      casa260604665,
+      casa260604666,
+      casa260604668,
+      casa260604670,
+      casa260604671,
+      casa260604672,
+      casa260604673,
+      casa260604674,
     ],
     title: "Casa à Venda — Rua Cuevas",
     location: "Lapa, São Paulo - SP",
