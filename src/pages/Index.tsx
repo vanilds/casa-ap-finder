@@ -3,6 +3,7 @@ import { Home, Building2 } from "lucide-react";
 import PropertyCard from "@/components/PropertyCard";
 import apartmentImg from "@/assets/apartment.jpg";
 import logoBV from "@/assets/logo-bv.png";
+import logoBVBlack from "@/assets/logo-bv-black.png";
 import casaPrincipal from "@/assets/casa/casa-principal.png";
 import casa26060464 from "@/assets/casa/casa-26060464.jpg";
 import casa26060461 from "@/assets/casa/casa-26060461.jpg";
