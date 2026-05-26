@@ -216,7 +216,7 @@ const Index = () => {
                   isDisabled
                     ? "bg-muted text-muted-foreground cursor-not-allowed opacity-60"
                     : isActive
-                    ? "bg-primary text-primary-foreground shadow-card"
+                    ? "bg-accent text-accent-foreground shadow-card"
                     : "bg-secondary text-secondary-foreground hover:bg-muted"
                 }`}
               >

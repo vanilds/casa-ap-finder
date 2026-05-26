@@ -139,7 +139,7 @@ const PropertyCard = ({
           <Button
             type="button"
             size="lg"
-            className="w-fit bg-primary text-primary-foreground hover:bg-primary/90 gap-2 text-base px-8"
+            className="w-fit bg-accent text-accent-foreground hover:bg-accent/90 gap-2 text-base px-8"
             onClick={openWhatsApp}
           >
             <Phone className="w-4 h-4" />
